@@ -1,0 +1,202 @@
+function sendHTMLEmail() {
+  var recipient = "21students@cambridge.edu.in"; // Replace with actual recipient email
+  var subject = "Cambrian Open House 2025 - Showcase Your Culinary Talents at our exclusive Food stalls!🍕";
+  // HTML content
+  var htmlBody = `
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        font-family: 'Poppins', sans-serif;
+      }
+      .container {
+        max-width: 500px;
+        margin: auto;
+      }
+      .content {
+        padding: 20px;
+        color: inherit;
+      }
+      h1 {
+        font-size: 24px;
+        color: #fcba03;
+        margin-bottom: 12px;
+      }
+      h2 {
+        font-size: 20px;
+        color: #fc9803;
+        margin: 20px 0 12px;
+      }
+      p {
+        line-height: 1.8;
+        margin: 12px 0;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 12px 0;
+      }
+      li {
+        margin: 10px 0;
+      }
+      .cta {
+        text-align: center;
+        margin: 20px 0;
+      }
+      .cta a {
+        display: inline-block;
+        padding: 15px 40px;
+        background: linear-gradient(45deg, #fcba03, #fc9803);
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 18px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        text-transform: uppercase;
+      }
+      .cta a:hover {
+        opacity: 0.9;
+      }
+      .cta a:active {
+        opacity: 0.5;
+      }
+      .footer {
+        border-top: 1px solid rgba(0,0,0,0.3);
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+      }
+      .hr-line {
+        border: 0;
+        border-top: 1px solid currentColor;
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Full-width wrapper table (no explicit background color) -->
+    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+      <tr>
+        <td align="center">
+          <!-- Container table -->
+          <table class="container" width="500" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td>
+                <!-- Banner Section -->
+                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="center">
+                      <img src="https://i.clouds.tf/925x/4j6d.png" alt="Banner Image" style="width: 100%; max-width: 500px; display: block;">
+                    </td>
+                  </tr>
+                </table>
+                <!-- Content Section -->
+                <table width="100%" cellspacing="0" cellpadding="0" border="0" class="content">
+                  <tr>
+                    <td>
+                      <h1>Dear Students,</h1>
+                      <p>
+                        We are beyond excited to invite you to <strong style="color: #fcba03;">Cambrian Open House 2025</strong>, the biggest celebration of innovation, culture, and entrepreneurial spirit at <strong style="color: #fcba03;">Cambridge Institute of Technology, Bengaluru</strong> <br> on <strong style="color: #fcba03;">19 April, 2025</strong>.
+                      </p>
+                      <p>
+                        This year, we're giving YOU the chance to set up your own food stalls at <strong style="color: #fcba03;">ZERO COST</strong>! Whether you're a kitchen wizard, a business-minded hustler, or just love sharing flavors, this is YOUR moment to shine!
+                      </p>
+                      <h2>Who Can Join?</h2>
+                      <ul>
+                        <li><strong style="color: #fcba03;">Students</strong> – Any branch, any semester—showcase your creativity &amp; passion!</li>
+                        <li><strong style="color: #fcba03;">Friends &amp; Teams</strong> – Set up a stall with your crew or represent a fellow student.</li>
+                        <li><strong style="color: #fcba03;">Alumni</strong> – Come back, relive the nostalgia, and share your success story!</li>
+                      </ul>
+                      <h2>How to Get Started?</h2>
+                      <p>
+                        Sign up NOW using the link below, and our team will help you with everything from setup to promotion!
+                      </p>
+                      <div class="cta">
+                        <a href="https://wlnk.site/u/pnEy2m8R" target="_blank">Register for Free</a>
+                      </div>
+                      <p>
+                        Don’t miss out on this once-in-a-lifetime opportunity to be a foodpreneur at the most exciting Open House event ever!
+                      </p>
+                      <p>
+                        We can’t wait to celebrate with you and see your creativity in action!
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <!-- Footer Section -->
+                <table width="100%" cellspacing="0" cellpadding="0" border="0" class="footer">
+                  <tr>
+                    <td>
+                      <p>
+                        For any inquiries, feel free to contact us:<br>
+                        Bharath: +91-6360146030<br>
+                        Mail: <a href="mailto:openhouse@cambridge.edu.in" style="color: inherit; text-decoration: underline;">openhouse@cambridge.edu.in</a>
+                      </p>
+                    </td>
+                  </tr>
+                  <!-- White Horizontal Line -->
+                  <tr>
+                    <td>
+                      <hr class="hr-line">
+                    </td>
+                  </tr>
+                  <!-- Social Icons Section -->
+                  <tr>
+                    <td align="center">
+                      <table cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td style="padding: 0 5px;">
+                            <a href="https://wlnk.site/u/XoCZ3jDS" target="_blank">
+                              <img src="https://github.com/DILIP-SHEESH/images/blob/main/instagram.png?raw=true" alt="Instagram" width="35" height="35" style="display: block;">
+                            </a>
+                          </td>
+                          <td style="padding: 0 5px;">
+                            <a href="https://wlnk.site/u/aZvzLCvx" target="_blank">
+                              <img src="https://github.com/DILIP-SHEESH/images/blob/main/linkedin.png?raw=true" alt="LinkedIn" width="35" height="35" style="display: block;">
+                            </a>
+                          </td>
+                          <td style="padding: 0 5px;">
+                            <a href="https://wlnk.site/u/tFl7eWRH" target="_blank">
+                              <img src="https://github.com/DILIP-SHEESH/images/blob/main/X.png?raw=true" alt="X (Twitter)" width="35" height="35" style="display: block;">
+                            </a>
+                          </td>
+                          <td style="padding: 0 5px;">
+                            <a href="https://wlnk.site/u/EsiGHXMH" target="_blank">
+                              <img src="https://github.com/DILIP-SHEESH/images/blob/main/facebook.png?raw=true" alt="Facebook" width="35" height="35" style="display: block;">
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                      <p style="font-size: 12px; margin-top: 10px;">
+                        Be part of the experience! Stay updated on Cambrian Open House 2025 by following us on social media.🚀
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+  `;
+
+  MailApp.sendEmail({
+    to: recipient,
+    subject: subject,
+    cc:"22students@cambridge.edu.in, 23students@cambridge.edu.in, 24students@cambridge.edu.in",
+    htmlBody: htmlBody
+  });
+
+  Logger.log("✅ Funky Email Sent Successfully!");
+}
